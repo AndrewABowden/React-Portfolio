@@ -1,0 +1,136 @@
+/* CSS Styling */
+
+body {
+    background-image: url("https://www.toptal.com/designers/subtlepatterns/patterns/connectwork.png");
+  }
+
+/* General Settings */
+
+.col-12 {
+    margin-top: 75px;
+}
+
+.row { 
+    padding-top: 0px !important;
+}
+/* overwrite boostrap */
+
+.img-thumbnail {
+    margin: 1px;
+    background-color: black;
+
+}
+  /* new class */
+
+.nav {
+    width: 100%;
+    background-color: #232323;
+}
+.nav a {
+    text-align: center;
+    font-size: 29px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+ 
+}
+.nav a hover {
+    color: white;
+}
+.nav-tabs {
+ 
+    height: 65;
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+li active {
+    background-color: #4aaaa5;
+    color: white;
+}
+.jumbotron {
+        width: 100%;
+        -webkit-background-size: 100% 100%;
+        -moz-background-size: 100% 100%;
+        -o-background-size: 100% 100%;
+        background-size: 100% 100%;
+    };
+
+.container {
+    margin-top: 25px;
+
+}
+
+/* Changes the way links look on nav menu */
+
+/*creating an active class to show what page we are on */
+.active {
+    color: white;
+}
+a hover {
+    color: white;
+}
+a active {
+    color: white;
+}
+
+/*Portfolio */
+.col-lg-6 {
+        position: relative;
+        width: 200px;
+        margin: 20px 0 20px;
+        overflow: hidden;
+        margin-bottom: 5px;
+        border-bottom: 3px;
+    }
+.col-lg-6 img {
+        width: 100%;
+        border: 0 none;
+        opacity: .8;
+    }
+h3 {
+    position: absolute;
+    width: 200px;
+    line-height: 25px;
+    color: #fff;
+    background-color: #078f88;
+    text-align: center;
+    padding: 14px;
+    margin-left: 1px;
+    bottom: 20px;
+    border: 1px solid white;
+    font-size: 20px;
+}
+.navbar-brand {
+    padding: 8px 14px;
+    font-size: 20px;
+}
+
+/* Contact Form */
+label {
+    color: white;
+}
+/* Gives inputs style, hepls select elements and textbox */
+
+/*footer*/
+
+.footer {
+
+}
+/*h1 frames */
+h1 {
+    color: skyblue;
+    animation-duration: 3s;
+    animation-name: slidein;
+  }
+  
+  @keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%; 
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
